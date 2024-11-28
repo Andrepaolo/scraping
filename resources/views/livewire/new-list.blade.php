@@ -47,7 +47,7 @@
     </div>
 
 
-    @include('livewire.category-statistics')
+
 
 </div>
 

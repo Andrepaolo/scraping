@@ -1,6 +1,8 @@
 <?php
 
+
 use App\Livewire\NewList;
+use App\Livewire\NewsStatistics;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
@@ -15,6 +17,7 @@ Route::middleware([
     Route::get('/dashboard', function () {
         return view('dashboard');
     })->name('dashboard');
-    Route::get('/news', NewList::class);
+    Route::get('/news', NewList::class)->name('news');
     Route::get('/news/{id}', [NewList::class, 'show'])->name('news.show');
+    Route::get('/news-statistics', NewsStatistics::class)->name('news-statistics');
 });
