@@ -40,42 +40,62 @@ class DatabaseSeeder extends Seeder
         ]);
         Category::create([
             'name' => 'Educación',
+            'color' => '#34D399',
         ]);
         Category::create([
             'name' => 'Desarrollo',
+            'color' => '#60A5FA',
         ]);
         Category::create([
             'name' => 'Violencia',
+            'color' => '#F87171',
         ]);
         Category::create([
             'name' => 'Medio Ambiente',
+            'color' => '#22D3EE',
         ]);
         Category::create([
             'name' => 'Política',
+            'color' => '#9333EA',
         ]);
         Category::create([
             'name' => 'Cultura',
+            'color' => '#E879F9',
         ]);
         Category::create([
             'name' => 'Deportes',
+            'color' => '#10B981',
         ]);
         Category::create([
             'name' => 'Economía',
+            'color' => '#F43F5E',
         ]);
         Category::create([
             'name' => 'Sociedad',
+            'color' => '#6B7280',
         ]);
         Category::create([
             'name' => 'Tecnología',
+            'color' => '#A78BFA',
         ]);
         Category::create([
             'name' => 'Turismo',
+            'color' => '#FBBF24',
         ]);
         Category::create([
             'name' => 'Agricultura',
+            'color' => '#4ADE80',
+        ]);
+        Category::create([
+            'name' => 'Salud',
+            'color' => '#38BDF8',
+        ]);
+        Category::create([
+            'name' => 'Sin Categoría',
+            'color' => '#D1D5DB',
         ]);
         Location::create([
-            'name' => 'Amazonas',
+            'name' => 'Puno',
         ]);
         Location::create([
             'name' => 'Áncash',
@@ -135,7 +155,7 @@ class DatabaseSeeder extends Seeder
             'name' => 'Piura',
         ]);
         Location::create([
-            'name' => 'Puno',
+            'name' => 'Amazonas',
         ]);
         Location::create([
             'name' => 'San Martín',

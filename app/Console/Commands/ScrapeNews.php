@@ -41,7 +41,7 @@ class ScrapeNews extends Command
         ];
 
         foreach ($urls_diarios as $base_url) {
-            for ($page = 1; $page <= 10; $page++) {
+            for ($page = 1; $page <= 3; $page++) {
                 $url = str_replace('{}', $page, $base_url);
                 $this->info("Procesando URL: $url");
 
